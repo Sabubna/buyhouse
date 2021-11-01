@@ -145,6 +145,7 @@
             android:layout_height="wrap_content"
             android:text="Готово"
             android:textSize="@dimen/s12"
+            android:textColor="@color/white"
             android:background="@color/green"
             android:layout_marginTop="35dp"
             app:layout_constraintEnd_toEndOf="parent"
