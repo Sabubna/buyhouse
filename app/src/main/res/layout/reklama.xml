@@ -51,14 +51,12 @@
             app:layout_constraintTop_toBottomOf="@+id/textView11">
 
             <LinearLayout
-                android:id="@+id/layout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/icon1"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/component_30" />
@@ -68,12 +66,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Главная"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
@@ -81,7 +79,6 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/icon2"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/component_41" />
@@ -90,12 +87,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Каталог"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layout3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
@@ -103,7 +100,6 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/icon3"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ellipse_24" />
@@ -112,6 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Избранное"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -132,6 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Корзина"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -153,6 +151,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Мои Товары"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -173,6 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Мой Аккаунт"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -192,6 +192,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Доставка"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -211,6 +212,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Возврат"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
