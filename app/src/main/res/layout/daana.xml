@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="4dp"
+        android:text="Каталог"
+        android:textColor="#1B5459"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="60dp"
+        android:text="Найти товар"
+        android:textColor="#8DA9AC"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="100dp"
+        android:text="Наличие"
+        android:textColor="#8DA9AC"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="100dp"
+        android:text="Цена"
+        android:textColor="#8DA9AC"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:layout_width="336dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:text="Категории"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        colo
+        android:layout_width="70dp"
+        android:layout_height="46dp"
+        android:background="#FFB800"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="505dp"
+        android:text="Сортировать: по убыванию популярности"
+        android:textColor="#8DA9AC"/>
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:text="Товаров не найдено."
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="535dp"
+        android:background="#B7D5D8"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
