@@ -8,24 +8,175 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/rectangle_57"
+        android:layout_width="412dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="640dp"
+        android:src="@drawable/rectangle_77"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:src="@drawable/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/shop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="229dp"
-        android:layout_height="113dp"
-        android:layout_marginTop="84dp"
-        android:text="BuyHouse"
+        android:id="@+id/button2"
+        android:layout_width="289dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/green"
+        android:text="Реклама"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/component_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="352dp"
+        android:src="@drawable/rectangle_42__1_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/component_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/rectangle_43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/rectangle_44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/rectangle_45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="75dp"
+        android:src="@drawable/component_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/component_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/component_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </Button>
+    </ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>
