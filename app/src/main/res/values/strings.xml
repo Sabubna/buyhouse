@@ -11,4 +11,12 @@
     <string name="main">Главная</string>
     <string name="skidki">Скидки</string>
     <string name="zamanchivoe">Заманчивое предложение</string>
+    <string name="registration">Регистрация</string>
+    <string name="alreadyhaveanacc">Уже есть аккаунт</string>
+    <string name="FIO">ФИО</string>
+    <string name="country">Страна</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Почта</string>
+    <string name="parol">Пароль</string>
+    <string name="done">Готово</string>
 </resources>
