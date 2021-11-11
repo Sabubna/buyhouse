@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/header_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Разместить свой заказ"
+        android:textStyle="bold"
+        android:textColor="#22565c"
+        android:textSize="40sp">
+    </TextView>
+    <TextView
+        android:id="@+id/header_disc"
+        app:layout_constraintTop_toBottomOf="@id/header_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Упростите процесс закупки, экономьте до 40%, выбирая из предложенных 1,3 млн поставщиков"
+        android:textColor="#979797"
+        android:textSize="24sp">
+    </TextView>
+    <TextView
+        android:id="@+id/header_bold"
+        app:layout_constraintTop_toBottomOf="@id/header_disc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Это бесплатно."
+        android:textColor="#22565c"
+        android:textSize="24sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintTop_toBottomOf="@id/header_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:hint="Что хотите купить?"
+        android:gravity="start"
+        ></EditText>
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintTop_toBottomOf="@id/input1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:hint="Телефон"
+        android:gravity="start"
+        ></EditText>
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintTop_toBottomOf="@id/input2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:gravity="start"
+        ></EditText>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundedbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input3"
+        android:text="Найти поставщиков"
+        android:textColor="@color/white"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

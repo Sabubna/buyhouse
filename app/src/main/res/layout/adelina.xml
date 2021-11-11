@@ -22,6 +22,7 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <ImageButton
+        android:background="@drawable/backicon"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +41,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="#1B5459"
+        android:background="@drawable/rounded_new"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -50,7 +51,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="80dp"
-        android:background="#1B5459"
+        android:background="@drawable/rounded_new"
         android:text="Я покупатель"
         android:textColor="@color/white"
         android:textSize="18sp"
