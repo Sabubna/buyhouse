@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
             android:layout_marginTop="10dp"
-            android:text="Скидки"
+            android:text="@string/skidki"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
-            android:text="Заманчивое предложение"
+            android:text="@string/zamanchivoe"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -66,7 +66,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Главная"
+                    android:text="@string/main"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -108,7 +108,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Избранное"
+                    android:text="@string/heart"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -129,7 +129,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Корзина"
+                    android:text="@string/bin"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -151,7 +151,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Мои Товары"
+                    android:text="@string/mytovary"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -172,7 +172,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Мой Аккаунт"
+                    android:text="@string/myacc"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -192,7 +192,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Доставка"
+                    android:text="@string/delivery"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -212,7 +212,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Возврат"
+                    android:text="@string/vozvrat"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
