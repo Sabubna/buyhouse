@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BuyH</string>
+    <string name="nach">Начать работать!</string>
+    <string name="platform">Платформа для оптовых покупателей и продавцов строительных материалов. Находи лучших поставщиков и новых клиентов вместе с Нами!</string>
 </resources>

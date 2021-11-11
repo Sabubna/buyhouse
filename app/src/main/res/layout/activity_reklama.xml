@@ -217,7 +217,6 @@
                     android:textColor="@color/green" />
 
             </LinearLayout>
-
         </LinearLayout>
 
         <ImageView
