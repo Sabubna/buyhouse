@@ -12,12 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
+        <item name="android:textAllCaps">false</item>
 
     </style>
     <style name="loo">
         <item name="android:textColor">@color/grey</item>
         <item name="android:textSize">@dimen/s12</item>
+
 
     </style>
 </resources>
