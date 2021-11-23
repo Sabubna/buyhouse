@@ -1,22 +1,14 @@
 <resources>
     <string name="app_name">BuyH</string>
-    <string name="nach">Начать работать!</string>
-    <string name="platform">Платформа для оптовых покупателей и продавцов строительных материалов. Находи лучших поставщиков и новых клиентов вместе с Нами!</string>
-    <string name="vozvrat">Возврат</string>
-    <string name="delivery">Доставка</string>
-    <string name="myacc">Мой Аккаунт</string>
-    <string name="mytovary">Мои Товары</string>
+    <string name="empty">В корзине пусто</string>
+    <string name="add">Найдите нужный товар в каталоге и добавьте его в корзину</string>
+    <string name="trans_catalog">Перейти в каталог</string>
     <string name="bin">Корзина</string>
-    <string name="heart">Избранное</string>
-    <string name="main">Главная</string>
-    <string name="skidki">Скидки</string>
-    <string name="zamanchivoe">Заманчивое предложение</string>
-    <string name="registration">Регистрация</string>
-    <string name="alreadyhaveanacc">Уже есть аккаунт</string>
-    <string name="FIO">ФИО</string>
-    <string name="country">Страна</string>
-    <string name="phone">Телефон</string>
-    <string name="email">Почта</string>
-    <string name="parol">Пароль</string>
-    <string name="done">Готово</string>
+    <string name="catalog">Каталог</string>
+    <string name="nal">Наличие</string>
+    <string name="price">Цена</string>
+    <string name="category">Категории</string>
+    <string name="find">Найти товар</string>
+    <string name="sort">Сортировать: по убыванию популярности</string>
+    <string name="not_found">Товаров не найдено.</string>
 </resources>
