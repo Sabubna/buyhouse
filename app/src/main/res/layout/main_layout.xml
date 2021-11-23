@@ -69,6 +69,7 @@
         android:id="@+id/number"
         android:layout_width="280dp"
         android:layout_height="60dp"
+        android:padding="19dp"
         android:background="@drawable/border"
         app:layout_constraintTop_toBottomOf="@id/sellplace"
         app:layout_constraintStart_toStartOf="parent"
