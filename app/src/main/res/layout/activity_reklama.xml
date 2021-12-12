@@ -39,8 +39,8 @@
             app:srcCompat="@drawable/component_10" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="404dp"
+            android:layout_height="410dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="28dp"
             android:orientation="vertical"
@@ -180,11 +180,17 @@
 
             </LinearLayout>
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/line_20" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -206,7 +212,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal"
                 tools:ignore="UseCompoundDrawables">
 
@@ -226,27 +232,13 @@
             </LinearLayout>
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginBottom="10dp"
-            android:contentDescription="@string/home"
-            android:src="@drawable/component_30"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:contentDescription="@string/more"
-            android:src="@drawable/component_16"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-
+            android:layout_width="424dp"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/frame_6"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="676dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
