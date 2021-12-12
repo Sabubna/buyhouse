@@ -22,4 +22,8 @@
     <string name="description1">description1</string>
     <string name="logo">logo</string>
     <string name="more">more</string>
+    <string name="customer">Вы является продавцом или покупателем?</string>
+    <string name="ims">Я продавец</string>
+    <string name="imcustomer">Я покупатель</string>
+    <string name="back">back</string>
 </resources>

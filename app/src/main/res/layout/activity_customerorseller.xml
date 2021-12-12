@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
+    tools:context=".Customerorseller">
     <TextView
         android:id="@+id/textView"
         android:layout_width="229dp"
         android:layout_height="86dp"
-        android:text="Вы является продавцом      или покупателем?"
+        android:text="@string/customer"
         android:textColor="@color/black"
         android:textSize="19sp"
         android:textStyle="bold"
+        android:gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,12 +28,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.023"
+        android:contentDescription="@string/back" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="80dp"
-        android:text="Я продавец"
+        android:text="@string/ims"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -51,7 +51,7 @@
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:background="#1B5459"
-        android:text="Я покупатель"
+        android:text="@string/imcustomer"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
