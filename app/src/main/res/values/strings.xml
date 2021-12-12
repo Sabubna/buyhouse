@@ -26,4 +26,11 @@
     <string name="ims">Я продавец</string>
     <string name="imcustomer">Я покупатель</string>
     <string name="back">back</string>
+    <string name="popular">Популярное</string>
+    <string name="unitaz">unitaz</string>
+    <string name="home">home</string>
+    <string name="line">line</string>
+    <string name="acc">acc</string>
+    <string name="heart">heart</string>
+    <string name="kran">kran</string>
 </resources>

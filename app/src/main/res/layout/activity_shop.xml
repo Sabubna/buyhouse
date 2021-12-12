@@ -39,7 +39,8 @@
         android:layout_marginEnd="40dp"
         android:src="@drawable/rectangle_57"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/kran">
 
     </ImageView>
 
@@ -77,7 +78,8 @@
         android:layout_marginEnd="92dp"
         android:src="@drawable/component_17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        android:contentDescription="@string/price">
 
     </ImageView>
 
@@ -88,7 +90,8 @@
         android:layout_marginTop="12dp"
         android:src="@drawable/component_17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        android:contentDescription="@string/price">
 
     </ImageView>
 
@@ -100,7 +103,8 @@
         android:layout_marginTop="428dp"
         android:src="@drawable/rectangle_58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/unitaz">
 
     </ImageView>
 
@@ -111,7 +115,8 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/component_17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:contentDescription="@string/price">
 
     </ImageView>
 
@@ -122,7 +127,8 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/component_17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        android:contentDescription="@string/price">
 
     </ImageView>
 
@@ -133,7 +139,8 @@
         android:layout_marginBottom="10dp"
         android:src="@drawable/component_34"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/home">
 
     </ImageView>
 
@@ -144,7 +151,8 @@
         android:layout_marginBottom="10dp"
         android:src="@drawable/component_34__1_"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/more">
 
     </ImageView>
 
@@ -155,7 +163,8 @@
         android:layout_marginBottom="44dp"
         android:src="@drawable/line_19"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/line">
 
     </ImageView>
 
@@ -166,7 +175,8 @@
         android:src="@drawable/component_45"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/acc">
 
     </ImageView>
 
@@ -177,7 +187,8 @@
         android:layout_marginBottom="8dp"
         android:src="@drawable/ellipse_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/heart">
 
     </ImageView>
 
@@ -188,7 +199,8 @@
         android:layout_marginBottom="8dp"
         android:src="@drawable/component_48"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/korzina">
 
     </ImageView>
 
