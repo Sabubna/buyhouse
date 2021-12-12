@@ -62,7 +62,7 @@
         android:backgroundTint="@color/green"
         android:text="@string/reklama"
         android:fontFamily="@font/roboto_bold"
-        android:textSize="24sp"
+        android:textSize="@dimen/dimen24"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

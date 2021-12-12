@@ -16,4 +16,6 @@
     <dimen name="d60">60dp</dimen>
     <dimen name="d175">175dp</dimen>
     <dimen name="d20">20dp</dimen>
+    <dimen name="dimen24">24sp</dimen>
+    <dimen name="size30">30sp</dimen>
 </resources>
