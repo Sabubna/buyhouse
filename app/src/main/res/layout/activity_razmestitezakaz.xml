@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/razm"
         android:textStyle="bold"
-        android:textColor="#22565c"
+        android:textColor="@color/green"
         android:textSize="40sp">
     </TextView>
     <TextView
@@ -39,7 +39,7 @@
         android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:text="@string/free"
-        android:textColor="#22565c"
+        android:textColor="@color/green"
         android:textSize="24sp">
     </TextView>
 
