@@ -234,11 +234,14 @@
 
 
         <ImageView
-            android:layout_width="424dp"
-            android:layout_height="62dp"
-            app:srcCompat="@drawable/frame_6"
-            tools:layout_editor_absoluteX="-1dp"
-            tools:layout_editor_absoluteY="676dp" />
+            android:layout_width="415dp"
+            android:layout_height="85dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/frame_6__1_"
+            tools:layout_editor_absoluteY="665dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
