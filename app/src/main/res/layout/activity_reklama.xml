@@ -22,7 +22,8 @@
             android:src="@drawable/component_42"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/reklama" />
 
         <TextView
             android:id="@+id/textView8"
@@ -60,7 +61,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_30" />
+                    android:src="@drawable/component_30"
+                    android:contentDescription="@string/home" />
 
 
                 <TextView
@@ -82,12 +84,13 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_41" />
+                    android:src="@drawable/component_41"
+                    android:contentDescription="@string/search" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Каталог"
+                    android:text="@string/catalog"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -103,7 +106,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24" />
+                    android:src="@drawable/ellipse_24"
+                    android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -124,7 +128,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24" />
+                    android:src="@drawable/ellipse_24"
+                    android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -146,7 +151,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24" />
+                    android:src="@drawable/ellipse_24"
+                    android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -167,7 +173,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24" />
+                    android:src="@drawable/ellipse_24"
+                    android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -187,7 +194,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_30" />
+                    android:src="@drawable/component_30"
+                    android:contentDescription="@string/home" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -197,17 +205,20 @@
                     android:textColor="@color/green" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="50dp"
                 android:layout_marginTop="30dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24" />
+                    android:src="@drawable/ellipse_24"
+                    android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -226,7 +237,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/home" />
 
         <ImageView
             android:layout_width="40dp"
@@ -235,7 +247,8 @@
             android:layout_marginBottom="10dp"
             android:layout_marginEnd="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/more" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

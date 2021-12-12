@@ -11,4 +11,15 @@
     <string name="find">Найти товар</string>
     <string name="sort">Сортировать: по убыванию популярности</string>
     <string name="not_found">Товаров не найдено.</string>
+    <string name="dush">dush</string>
+    <string name="vanna">vanna</string>
+    <string name="reklama">Реклама</string>
+    <string name="aaaa">aaaa</string>
+    <string name="search">search</string>
+    <string name="korzina">korzina</string>
+    <string name="menu">menu</string>
+    <string name="kafel1">kafel1</string>
+    <string name="description1">description1</string>
+    <string name="logo">logo</string>
+    <string name="more">more</string>
 </resources>

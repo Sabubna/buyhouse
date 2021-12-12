@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
+    tools:context=".Tovary">
     <ImageView
         android:layout_width="412dp"
         android:layout_height="110dp"
@@ -15,7 +13,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/aaaa">
 
     </ImageView>
 
@@ -26,7 +25,8 @@
         android:layout_marginEnd="60dp"
         android:src="@drawable/search"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/search">
 
     </ImageView>
 
@@ -37,7 +37,8 @@
         android:layout_marginEnd="13dp"
         android:src="@drawable/shop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/korzina">
 
     </ImageView>
 
@@ -48,7 +49,8 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/menu"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/menu">
 
     </ImageView>
 
@@ -58,7 +60,7 @@
         android:layout_height="187dp"
         android:layout_marginTop="100dp"
         android:backgroundTint="@color/green"
-        android:text="Реклама"
+        android:text="@string/reklama"
         android:fontFamily="@font/roboto_bold"
         android:textSize="24sp"
         android:textColor="@color/white"
@@ -73,7 +75,8 @@
         android:layout_marginTop="300dp"
         android:src="@drawable/component_16"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/more">
 
     </ImageView>
 
@@ -85,7 +88,8 @@
         android:layout_marginTop="352dp"
         android:src="@drawable/rectangle_42__1_"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/kafel1">
 
     </ImageView>
 
@@ -96,19 +100,21 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/component_10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:contentDescription="@string/description1">
 
     </ImageView>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/image"
         android:layout_width="130dp"
         android:layout_height="120dp"
         android:layout_marginTop="352dp"
         android:layout_marginEnd="50dp"
         android:src="@drawable/rectangle_43"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/kafel1">
 
     </ImageView>
 
@@ -120,7 +126,8 @@
         android:layout_marginTop="520dp"
         android:src="@drawable/rectangle_44"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/kafel1">
 
     </ImageView>
 
@@ -132,7 +139,8 @@
         android:layout_marginEnd="50dp"
         android:src="@drawable/rectangle_45"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/kafel1">
 
     </ImageView>
 
@@ -143,7 +151,8 @@
         android:layout_marginEnd="75dp"
         android:src="@drawable/component_10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:contentDescription="@string/description1">
 
     </ImageView>
 
@@ -154,7 +163,8 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/component_10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:contentDescription="@string/description1">
 
     </ImageView>
 
@@ -165,7 +175,8 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/component_10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:contentDescription="@string/description1">
 
     </ImageView>
 
@@ -176,7 +187,9 @@
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/logo">
 
     </ImageView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

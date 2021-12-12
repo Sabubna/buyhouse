@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".keshaShop">
+    tools:context=".Shop">
 
     <ImageView
         android:layout_width="392dp"
@@ -13,7 +13,8 @@
         android:src="@drawable/component_22"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/search">
 
     </ImageView>
 
@@ -23,7 +24,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/roboto_bold"
-        android:text="Популярное"
+        android:text="@string/popular"
         android:textColor="@color/green"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +52,8 @@
         android:layout_marginTop="192dp"
         android:src="@drawable/rectangle_56"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/dush">
 
     </ImageView>
 
@@ -64,7 +66,8 @@
         android:layout_marginEnd="40dp"
         android:src="@drawable/rectangle_59"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/vanna">
 
     </ImageView>
 
