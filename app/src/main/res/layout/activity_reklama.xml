@@ -68,7 +68,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/main"
+                    android:text="главная"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/heart"
+                    android:text="Избранное"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -157,7 +157,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mytovary"
+                    android:text="Мои товары"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -179,7 +179,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/myacc"
+                    android:text="Мой аккаунт"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -200,7 +200,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/delivery"
+                    android:text="Доставка"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -223,8 +223,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/vozvrat"
                     android:layout_marginStart="10dp"
+                    android:text="Возврат"
                     android:textColor="@color/green" />
 
             </LinearLayout>
