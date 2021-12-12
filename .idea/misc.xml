@@ -4,21 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/BuyH/app/src/main/res/layout/activity_buyhouse_main2.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_catalog.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_customerorseller.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_login_main2.xml" value="0.36666666666666664" />
         <entry key="..\:/BuyH/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_reklama.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_shop.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/activity_tovary.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/adelina.xml" value="0.36666666666666664" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/daana.xml" value="0.36666666666666664" />
         <entry key="..\:/BuyH/app/src/main/res/layout/kesha.xml" value="0.36666666666666664" />
         <entry key="..\:/BuyH/app/src/main/res/layout/login.xml" value="0.33" />
         <entry key="..\:/BuyH/app/src/main/res/layout/reklama.xml" value="0.33" />
-        <entry key="..\:/BuyH/app/src/main/res/layout/shop.xml" value="0.36666666666666664" />
         <entry key="..\:/adelina/buyhouse/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.36527344586087046" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/activity_reklama.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_shop.xml" value="0.23177083333333334" />
+        <entry key="app/src/main/res/layout/activity_tovary.xml" value="0.23177083333333334" />
+        <entry key="app/src/main/res/layout/adelina.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/daana.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/kesha.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/korzina.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/main_layout.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/main_layout2.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/mainactivity2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/shop.xml" value="0.22083333333333333" />
       </map>
     </option>
   </component>
