@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuyH">
         <activity
+            android:name=".ToSell"
+            android:exported="true" />
+        <activity
             android:name=".Korzina"
             android:exported="true" />
         <activity
