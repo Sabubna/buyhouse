@@ -35,4 +35,12 @@
     <string name="kran">kran</string>
     <string name="platform">Платформа для оптовых покупателей и продавцов строительных материалов. Находи лучших поставщиков и новых клиентов вместе с Нами!</string>
     <string name="nach">Начать работать!</string>
+    <string name="sales">Скидки!</string>
+    <string name="zp">Заманчивое предложение</string>
+    <string name="vozvrat">Возврат</string>
+    <string name="dostavka">Доставка</string>
+    <string name="account">Мой аккаунт</string>
+    <string name="mytovary">Мои товары</string>
+    <string name="izbrannoe">Избранное</string>
+    <string name="main">Главная</string>
 </resources>

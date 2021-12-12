@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
             android:layout_marginTop="10dp"
-            android:text="@string/skidki"
+            android:text="@string/sales"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
-            android:text="@string/zamanchivoe"
+            android:text="@string/zp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -68,7 +68,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="главная"
+                    android:text="@string/main"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Избранное"
+                    android:text="@string/izbrannoe"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -157,7 +157,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Мои товары"
+                    android:text="@string/mytovary"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -179,7 +179,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Мой аккаунт"
+                    android:text="@string/account"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -200,7 +200,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Доставка"
+                    android:text="@string/dostavka"
                     android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
@@ -224,7 +224,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:text="Возврат"
+                    android:text="@string/vozvrat"
                     android:textColor="@color/green" />
 
             </LinearLayout>
