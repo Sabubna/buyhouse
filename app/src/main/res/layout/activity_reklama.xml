@@ -39,6 +39,7 @@
             app:srcCompat="@drawable/component_10" />
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="404dp"
             android:layout_height="410dp"
             android:layout_marginStart="10dp"
@@ -236,11 +237,13 @@
         <ImageView
             android:layout_width="415dp"
             android:layout_height="85dp"
+            android:layout_marginTop="419dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout"
             app:srcCompat="@drawable/frame_6__1_"
-            tools:layout_editor_absoluteY="665dp" />
+            android:contentDescription="@string/menu" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
