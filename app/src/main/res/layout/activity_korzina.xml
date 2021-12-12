@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
-
+    tools:context=".Korzina">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -49,4 +48,5 @@
             android:textColor="@color/black"
             android:textSize="@dimen/s12" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
