@@ -35,4 +35,10 @@
     <string name="kran">kran</string>
     <string name="platform">Платформа для оптовых покупателей и продавцов строительных материалов. Находи лучших поставщиков и новых клиентов вместе с Нами!</string>
     <string name="nach">Начать работать!</string>
+    <string name="prodatpotom">Продать потом</string>
+    <string name="naxodite">Находите новых клиентов ежедневно на нашей платформе!</string>
+    <string name="what">Что хотите продать?</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="sclientov">Найти клиентов</string>
 </resources>
