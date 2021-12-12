@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuyH">
         <activity
+            android:name=".Catalog"
+            android:exported="true" />
+        <activity
+            android:name=".Shop"
+            android:exported="true" />
+        <activity
+            android:name=".Customerorseller"
+            android:exported="true" />
+        <activity
+            android:name=".Tovary"
+            android:exported="true" />
+        <activity
             android:name=".Reklama"
             android:exported="true" />
         <activity
