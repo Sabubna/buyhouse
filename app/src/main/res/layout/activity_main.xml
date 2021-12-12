@@ -35,7 +35,7 @@
             android:layout_marginTop="80dp"
             android:text="@string/platform"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="@dimen/size17"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -46,7 +46,7 @@
             android:layout_marginBottom="100dp"
             android:background="@color/white"
             android:text="@string/nach"
-            android:textSize="14sp"
+            android:textSize="@dimen/size14"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintStart_toStartOf="@+id/textView" />

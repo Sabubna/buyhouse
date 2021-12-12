@@ -48,4 +48,10 @@
     <string name="free">Это бесплатно.</string>
     <string name="_40_1_3">Упростите процесс закупки, экономьте до 40%, выбирая из предложенных 1,3 млн поставщиков</string>
     <string name="razm">Разместить свой заказ</string>
+    <string name="registration">Регистрация</string>
+    <string name="фдкуфвн">Уже есть аккаунт</string>
+    <string name="fio">ФИО</string>
+    <string name="county">Страна</string>
+    <string name="parol">Пароль</string>
+    <string name="done">Готово</string>
 </resources>
