@@ -11,46 +11,41 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="285dp"
             android:layout_height="144dp"
             android:layout_marginTop="30dp"
+            android:contentDescription="@string/reklama"
             android:src="@drawable/component_42"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="129dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="196dp"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/reklama" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/sales"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
-            android:text="@string/zp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
+            app:srcCompat="@drawable/component_10" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
             android:orientation="vertical"
-            android:layout_marginTop="40dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView11">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -61,15 +56,15 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_30"
-                    android:contentDescription="@string/home" />
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/component_30" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/main"
                     android:layout_marginStart="10dp"
+                    android:text="главная"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -84,14 +79,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_41"
-                    android:contentDescription="@string/search" />
+                    android:contentDescription="@string/search"
+                    android:src="@drawable/component_41" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
                     android:text="@string/catalog"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -106,14 +101,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24"
-                    android:contentDescription="@string/heart" />
+                    android:contentDescription="@string/heart"
+                    android:src="@drawable/ellipse_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/izbrannoe"
                     android:layout_marginStart="10dp"
+                    android:text="Избранное"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -128,14 +123,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24"
-                    android:contentDescription="@string/heart" />
+                    android:contentDescription="@string/heart"
+                    android:src="@drawable/component_48" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
                     android:text="@string/bin"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -151,14 +146,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24"
-                    android:contentDescription="@string/heart" />
+                    android:contentDescription="@string/heart"
+                    android:src="@drawable/component_44" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mytovary"
                     android:layout_marginStart="10dp"
+                    android:text="Мои товары"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -173,17 +168,18 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24"
-                    android:contentDescription="@string/heart" />
+                    android:contentDescription="@string/heart"
+                    android:src="@drawable/component_45" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/account"
                     android:layout_marginStart="10dp"
+                    android:text="Мой аккаунт"
                     android:textColor="@color/green" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -194,14 +190,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/component_30"
+
                     android:contentDescription="@string/home" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dostavka"
                     android:layout_marginStart="10dp"
+                    android:text="Доставка"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -217,14 +213,14 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ellipse_24"
+
                     android:contentDescription="@string/heart" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:text="@string/vozvrat"
+                    android:text="Возврат"
                     android:textColor="@color/green" />
 
             </LinearLayout>
@@ -233,22 +229,22 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/component_30"
             android:layout_marginStart="20dp"
             android:layout_marginBottom="10dp"
+            android:contentDescription="@string/home"
+            android:src="@drawable/component_30"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:contentDescription="@string/home" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/component_16"
-            android:layout_marginBottom="10dp"
             android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/more"
+            android:src="@drawable/component_16"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="@string/more" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
